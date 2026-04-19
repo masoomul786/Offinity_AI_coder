@@ -26,28 +26,28 @@ Unlike traditional AI coding tools, Offinity AI allows users to generate, edit, 
 
 * Fully functional with local models (LM Studio, Ollama)
 * Optional cloud API integration (OpenAI, Anthropic, OpenRouter)
-* No mandatory subscription required
+* No subscription required
 
 ---
 
-### 🔹 Beginner-Friendly (No Coding Required)
+### 🔹 No Coding Required (Beginner-Friendly)
 
 * Build apps using simple English prompts
-* No prior programming knowledge needed
+* Designed for both beginners and developers
 
 ---
 
 ### 🔹 Visual Builder
 
 * Drag, resize, and edit UI elements
-* Modify design visually without touching code
-* AI-assisted UI improvements
+* Modify UI without writing code
+* AI-assisted element editing
 
 ---
 
 ### 🔹 API Flow Visualization
 
-* Visual representation of pages, APIs, and databases
+* Visual graph of pages, APIs, and databases
 * Connect components using arrows
 * Automatically updates real code
 
@@ -56,7 +56,7 @@ Unlike traditional AI coding tools, Offinity AI allows users to generate, edit, 
 ### 🔹 Smart Code Editing
 
 * Modify files using natural language
-* Patch-based updates for efficiency and stability
+* Patch-based updates for efficiency
 * Maintains consistency across large projects
 
 ---
@@ -71,7 +71,7 @@ Unlike traditional AI coding tools, Offinity AI allows users to generate, edit, 
 ### 🔹 Test Automation
 
 * Runs tests automatically
-* Fixes failing tests using AI
+* Fixes failures using AI
 * Supports multiple frameworks
 
 ---
@@ -80,11 +80,11 @@ Unlike traditional AI coding tools, Offinity AI allows users to generate, edit, 
 
 * Automatic version control
 * Undo changes anytime
-* View differences like GitHub
+* View diffs like GitHub
 
 ---
 
-## ⚙️ Tech Stack
+## 🛠️ Built With
 
 * Python
 * JavaScript
@@ -96,48 +96,80 @@ Unlike traditional AI coding tools, Offinity AI allows users to generate, edit, 
 
 ---
 
-## 🎥 Demo
-
-> A demo video showcasing offline AI generation, visual editing, and full-stack app creation.
-
----
-
 ## 🚀 Getting Started
 
 ### 1. Clone Repository
 
-```bash
-git clone https://github.com/YOUR_USERNAME/offinity-ai.git
-cd offinity-ai
 ```
-
-### 2. Run Project
-
-```bash
-python main.py
+git clone https://github.com/masoomul786/Offinity_AI_coder.git
+cd Offinity_AI_coder
 ```
 
 ---
 
-### 🔹 Demo Mode (No Setup Required)
+### 2. Run Project
 
-* Runs with pre-configured responses
-* Allows quick testing without local models
+#### 🌐 Web Interface (Recommended)
+
+**Windows:**
+
+```
+start_web.bat
+```
+
+**Linux / Mac:**
+
+```
+chmod +x start_web.sh
+./start_web.sh
+```
+
+---
+
+#### 💻 Terminal Mode
+
+**Windows:**
+
+```
+start.bat
+```
+
+**Linux / Mac:**
+
+```
+chmod +x start.sh
+./start.sh
+```
+
+---
+
+### 🔹 Demo Mode
+
+* Works without local AI setup
+* Useful for quick testing
 
 ---
 
 ### 🔹 Full Mode (Optional)
 
-1. Install LM Studio or Ollama
-2. Load a local model
-3. Connect to Offinity AI
+To enable full offline AI:
+
+* Install LM Studio or Ollama
+* Load a local model
+* Connect inside Offinity AI
+
+---
+
+## 🎥 Demo
+
+> Add your demo video link here (YouTube / Drive)
 
 ---
 
 ## 🔐 Security & Privacy
 
-* Runs fully offline
-* No data sent to external servers (in offline mode)
+* Fully offline capability
+* No data sent to external servers (offline mode)
 * Suitable for secure environments
 
 ---
@@ -145,9 +177,9 @@ python main.py
 ## 🌍 Use Cases
 
 * Beginner-friendly app development
-* Secure/offline development environments
+* Secure/offline environments
 * Rapid prototyping
-* Full-stack AI-assisted development
+* Full-stack AI development
 
 ---
 
@@ -164,7 +196,7 @@ python main.py
 
 © 2026 Masoomul Haque Choudhury. All rights reserved.
 
-This project is proprietary and may not be used, modified, or distributed without permission.
+This project is proprietary. Unauthorized use, copying, modification, or distribution is strictly prohibited.
 
 ---
 
