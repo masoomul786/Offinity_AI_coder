@@ -8,23 +8,22 @@
 
 **Offinity AI** is an **offline-first AI-powered development platform** that allows anyone to build complete software applications using natural language.
 
-Unlike traditional AI coding tools like Aider, Cursor, or Copilot that assist developers, Offinity AI enables **anyone — even beginners — to create full-stack applications** with simple English prompts.
+Unlike tools like Aider, Cursor, or Copilot that assist developers, Offinity AI enables:
 
-🔹 No coding required
-🔹 Works fully offline
-🔹 Visual + AI-powered development
-🔹 Builds complete applications (frontend + backend + database)
+* 🧠 Full application generation (not just code snippets)
+* 🔐 Offline development using local AI models
+* 🎨 Visual editing for UI and API flows
+* ⚡ Beginner-friendly experience (no coding required)
 
 ---
 
 ## 🚀 Why Offinity AI is Different
 
-* ✅ **No Coding Required** — build apps using plain English
-* ✅ **Full Application Generation** — not just code snippets
-* ✅ **Offline-First** — works without internet using local LLMs
-* ✅ **Visual Editor** — drag, resize, and customize UI
-* ✅ **API Flow Designer** — connect backend visually
-* ✅ **All-in-One Platform** — build, edit, debug, test, and manage projects
+* ✅ No coding required (plain English prompts)
+* ✅ Generates full-stack apps (frontend + backend + DB)
+* ✅ Works fully offline (LM Studio, Ollama)
+* ✅ Visual builder + API flow system
+* ✅ Built-in debugging, testing, and version control
 
 ---
 
@@ -32,63 +31,27 @@ Unlike traditional AI coding tools like Aider, Cursor, or Copilot that assist de
 
 ### 🔹 Full-Stack App Generation
 
-* Create complete apps from a single prompt
-* Supports Python, JavaScript, Java, Rust, and more
-* Automatically connects frontend, backend, and database
+Generate complete multi-file applications from a single prompt.
 
----
+### 🔹 Offline + Online AI
 
-### 🔹 Offline + Online AI Support
+Supports both local LLMs and cloud APIs.
 
-* Works with local models (LM Studio, Ollama)
-* Optional cloud APIs (OpenAI, Anthropic, OpenRouter)
-* No subscription required
+### 🔹 Visual Builder
 
----
+Drag, resize, and edit UI elements visually.
 
-### 🔹 Visual Builder (Beginner Friendly)
+### 🔹 API Flow Designer
 
-* Drag & drop UI elements
-* Resize, edit text, colors, layout
-* Modify UI without writing code
+Graph-based system to connect frontend, backend, and database.
 
----
+### 🔹 Debug + Auto-Fix
 
-### 🔹 API Flow Visualization
-
-* Visual graph of pages, APIs, and databases
-* Connect components using arrows
-* Automatically updates real code
-
----
-
-### 🔹 Smart Code Editing
-
-* Edit files using natural language
-* Patch-based updates (efficient & safe)
-* Maintains consistency across project
-
----
-
-### 🔹 Debugging & Auto-Fix
-
-* Detects project-wide issues
-* AI suggests and applies fixes
-
----
-
-### 🔹 Test Automation
-
-* Runs tests automatically
-* Fixes failures using AI
-
----
+AI detects and fixes issues automatically.
 
 ### 🔹 Git Integration
 
-* Auto version control
-* Undo changes anytime
-* View diffs like GitHub
+Auto commits, rollback, diff, and history tracking.
 
 ---
 
@@ -147,56 +110,149 @@ chmod +x start.sh
 
 ### 🔹 Demo Mode
 
-* Works without local AI setup
-* Quick testing environment
-
----
+Works without local AI setup.
 
 ### 🔹 Full Mode (Optional)
 
-To enable full offline AI:
-
 * Install LM Studio or Ollama
-* Load a local model
+* Load a model
 * Connect inside Offinity AI
 
 ---
 
-## 🎥 Demo
+# 🧠 Technical Architecture
 
-> Add your demo video link here (YouTube / Google Drive)
+## ⚙️ Core System Design
+
+Offinity AI is built as a modular AI-driven development engine:
+
+* **Prompt Engine** → Converts user intent into structured tasks
+* **Project Generator** → Creates multi-file full-stack projects
+* **Patch Engine** → Applies surgical edits instead of rewriting files
+* **Context Manager** → Maintains project-wide consistency
+* **Repo Map** → Tracks dependencies across files
+
+---
+
+## 🔄 Patch-Based Editing
+
+Large files are edited using structured diffs:
+
+PATCH:/OLD:/NEW:/END_PATCH
+
+Benefits:
+
+* 60–80% fewer tokens
+* Prevents truncation
+* Works efficiently with small local models
+
+---
+
+## 🧠 Context Optimization
+
+* Dynamic token budgeting
+* Semantic compression
+* Model-aware prompt shaping
+* Memory of previous edits
+
+---
+
+## 🔗 Full-Stack Linking Engine
+
+Automatically connects:
+
+* Frontend → API routes
+* API → Database
+* Forms → Backend handlers
+
+---
+
+## 🧪 Test + Auto-Fix Loop
+
+Workflow:
+
+1. Run tests
+2. Capture failures
+3. Send to AI
+4. Apply fixes
+5. Re-run tests
+
+Up to 3 iterations automatically.
+
+---
+
+## 🔀 Git-Based State Management
+
+* Auto commit after each AI operation
+* `/undo`, `/diff`, `/log` commands
+* File-level and project-level rollback
+
+---
+
+## 🔌 Supported Providers
+
+* LM Studio (offline)
+* Ollama (offline)
+* OpenAI API
+* Anthropic API
+* OpenRouter
+
+---
+
+## ⚙️ Environment Configuration
+
+```
+SC_PROVIDER=lmstudio
+SC_URL=http://localhost:1234/v1
+SC_MODEL=
+SC_MAX_TOKENS=8192
+SC_TEMPERATURE=0.1
+SC_CONTEXT_WINDOW=4096
+SC_RETRIES=3
+```
+
+---
+
+## 📊 Performance Focus
+
+Optimized for:
+
+* 7B–13B local models
+* Low latency generation
+* Reduced token usage
+* Stable multi-file editing
 
 ---
 
 ## 🔐 Privacy & Security
 
-* Runs fully offline
-* No data sent to external servers (offline mode)
-* Ideal for secure environments
+* Fully offline capability
+* No external data transmission
+* Suitable for secure environments
 
 ---
 
 ## 🌍 Use Cases
 
-* Beginner-friendly app development
-* Offline / secure environments
+* Beginner-friendly app creation
+* Offline development
+* Secure enterprise environments
 * Rapid prototyping
-* AI-powered full-stack development
 
 ---
 
 ## 🔍 SEO Keywords
 
-AI app builder, offline AI coding tool, full-stack AI generator, no-code AI development, local LLM coding, AI software builder, visual programming AI, AI developer tool
+AI app builder, offline AI coding tool, full-stack AI generator, no-code AI development, local LLM coding, AI software builder, visual programming AI
 
 ---
 
 ## 🔮 Future Improvements
 
 * One-click deployment
-* Team collaboration
+* Collaboration system
 * Plugin ecosystem
-* Advanced local model optimization
+* Advanced model optimization
 
 ---
 
@@ -210,4 +266,4 @@ This project is proprietary. Unauthorized use, copying, modification, or distrib
 
 ## ⭐ Final Note
 
-> Offinity AI is not just an AI coding assistant — it is a complete offline-first development platform designed to make software creation accessible to everyone.
+> Offinity AI is not just an AI coding assistant — it is a complete offline-first development platform.
