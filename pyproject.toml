@@ -1,0 +1,67 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "offinity_ai"
+version = "1.0.0"
+description = "Production-grade AI code generator. Works with local models (LM Studio, Ollama) and cloud APIs (OpenAI, Anthropic, OpenRouter)."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+keywords = ["ai", "code-generation", "llm", "developer-tools", "local-ai"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "Environment :: Web Environment",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Code Generators",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = [
+    "requests>=2.28.0",
+    "flask>=3.0.0",
+    "flask-cors>=4.0.0",
+    "python-dotenv>=1.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "pytest-mock>=3.10",
+    "pytest-cov>=4.0",
+]
+
+[project.scripts]
+offinity_ai = "main:main"
+
+[project.urls]
+Homepage = "https://github.com/yourusername/offinity_ai"
+"Bug Tracker" = "https://github.com/yourusername/offinity_ai/issues"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["core*", "ui*"]
+
+[tool.setuptools.package-data]
+"ui" = ["templates/*.html"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+addopts = "-v --tb=short"
+
+[tool.coverage.run]
+source = ["core", "config"]
+omit = ["tests/*", "ui/*"]
+
+[tool.coverage.report]
+show_missing = true
+skip_covered = false

@@ -1,0 +1,28 @@
+# ── Core dependencies (required) ─────────────────────────────────
+requests>=2.28.0
+flask>=3.0.0
+flask-cors>=4.0.0
+python-dotenv>=1.0.0
+
+# ── Optional: enhanced JS/TS context extraction (highly recommended) ──
+# Enables tree-sitter-based parsing for dramatically better JS/TS understanding
+# tree-sitter>=0.21.0
+# tree-sitter-javascript>=0.21.0
+# tree-sitter-python>=0.21.0
+# tree-sitter-typescript>=0.21.0   # TypeScript support
+
+# ── Optional: repo-map dependency graph ──────────────────────────
+# Enables Aider-style cross-file relationship mapping
+# networkx>=3.0
+
+# ── Optional: HTML5 validation ───────────────────────────────────
+# Enables proper HTML5 parse-tree validation in the debugger
+# html5lib>=1.1
+
+# ── Optional: better patch fuzzy matching ────────────────────────
+# Improves patch application for imprecise LLM output
+# diff-match-patch>=20230430
+
+# ── Install all optional deps at once ────────────────────────────
+# pip install tree-sitter tree-sitter-javascript tree-sitter-python \
+#             tree-sitter-typescript networkx html5lib diff-match-patch
